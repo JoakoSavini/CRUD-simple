@@ -20,9 +20,9 @@ const App = () => {
     <div className="items-container">
       {items.map((item) => (
         <div className="item-card" key={item.id}>
-          <h4 className="username">{item.username}</h4>
-          <p className="email">{item.email}</p>
-          <p className="address">{item.address.city}</p>
+          <h4 className="username"> Username: {item.username}</h4>
+          <p className="email"> Email: {item.email}</p>
+          <p className="address"> Ciudad: {item.address.city}</p>
         </div>
       ))}
     </div>
