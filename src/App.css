@@ -40,3 +40,41 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* Contenedor principal centrado */
+.items-container {
+  display: flex;
+  flex-wrap: wrap; /* Para que los divs pasen a la siguiente línea si no caben */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  gap: 20px; /* Espacio entre elementos */
+  padding: 20px;
+}
+
+/* Tarjeta de usuario */
+.item-card {
+  background-color: #f8f9fa; /* Color de fondo suave */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  width: 250px; /* Tamaño fijo */
+  text-align: center; /* Centrar texto */
+}
+
+/* Estilos de los textos */
+.username {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.email {
+  font-size: 1rem;
+  color: #666;
+}
+
+.address {
+  font-size: 0.9rem;
+  color: #888;
+}
